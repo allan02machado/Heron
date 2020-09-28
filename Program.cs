@@ -32,7 +32,7 @@ namespace Heron
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"A área é: {resultado1}");
+            Console.WriteLine($"A área é: {resultado1:N1}");
             Console.ResetColor();
 
             double resultado2 = area1 / 2;
